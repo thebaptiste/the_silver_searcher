@@ -30,11 +30,11 @@ Language types are output:
     --batch
         .bat  .cmd
   
+    --bazel
+        .bazel
+  
     --bitbake
         .bb  .bbappend  .bbclass  .inc
-  
-    --bro
-        .bro  .bif
   
     --cc
         .c  .h  .xs
@@ -46,7 +46,7 @@ Language types are output:
         .chpl
   
     --clojure
-        .clj  .cljs  .cljc  .cljx
+        .clj  .cljs  .cljc  .cljx  .edn
   
     --coffee
         .coffee  .cjsx
@@ -119,6 +119,9 @@ Language types are output:
   
     --go
         .go
+  
+    --gradle
+        .gradle
   
     --groovy
         .groovy  .gtmpl  .gpp  .grunit  .gradle
@@ -393,6 +396,9 @@ Language types are output:
     --vim
         .vim
   
+    --vue
+        .vue
+  
     --wix
         .wxi  .wxs
   
@@ -407,4 +413,10 @@ Language types are output:
   
     --yaml
         .yaml  .yml
+  
+    --zeek
+        .zeek  .bro  .bif
+  
+    --zephir
+        .zep
   
